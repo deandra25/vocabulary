@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page */
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.header h1{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+}
+
+.header h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: rgb(100, 100, 100);
+}
+
+.btn{
+    width: 270px;
+    height: 54px;
+    background-color: #FF0000;
+    font-family: monospace;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
+    left: 50%;
+}
+
+.btn-2{
+    width: 270px;
+    height: 54px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 40px;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid #ff0000;
+    transition: background-color 0.5s;
+    position: absolute;
+    top: 60%;
+    bottom: 40%;
+    left: 28%;    
+}
+
+.btn-2:hover{
+    background-color: #FF0000;
+}
+
+/*Navbar*/
+
+nav{
+    display: flex;
+    height: 30px;
+    padding: 1% 4%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+}
+
+nav img{
+    width: 110px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 25%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fa0000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li :hover::after{
+    width: 100%;
+}
+
+/* Kategori */
+
+h2{
+    position: relative;
+    top: 22px;
+    left: 66px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+hr{
+    position: absolute;
+    right: 90%;
+}
+
+.hr-2{
+    position: absolute;
+    right: 87%;
+}
+
+/* Card */ 
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+}
+
+.card{
+    position: relative;
+    background: rgb(231, 225, 225);
+    width: 300px;
+    margin: 25px;
+    box-shadow:  0 5px 25px rgb(1, 1, 1 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-image{
+    max-height: 200px;
+}
+
+.card-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.card-info{
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding:  10px 20px 30px;
+}
+
+.card-info h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: black;
+}
+
+.card-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.card a {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px ;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    transition: 0.5s;
+    background-color: #fa0000;
+}
+
+
+/* About Us */
+
+.pp-pict {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.about-us {
+    width: 100%;
+}
+
+.bungkus {
+    padding: 0px 60px;
+    margin: 60px auto;
+    display: flex;
+}
+
+.content {
+    width: 80%;
+    float: right;
+    text-align: left;
+    line-height: 1.7;
+    padding: 0px 60px;
+}
+
+.content h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;    
+}
+
+.content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #222;
+    font-size: 25px;
+}
+
+.social-media a:hover{
+    color: rgb(0, 166, 255);
+    transition: 0.8s linear;
+}
+
+.social-media i{
+    width: 35px;
+    height: 35px;
+    background-color: #ffff;
+    border-radius: 10%;
+    border: 1px solid #222;
+    text-align: center;
+    line-height: 35px;
+}
+
